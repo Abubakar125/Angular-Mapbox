@@ -1,0 +1,291 @@
+body {
+  font-family: 'Roboto';
+  margin: 0px !important;
+}
+
+.navBar-container {
+  background: #2188D9;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.navBar-container .logo {
+  padding-left: 45px;
+}
+
+.btns-container button {
+  padding: 0 27px;
+  background: #2188D9;
+  border-style: none;
+}
+
+.btns-container button img {
+  padding-right: 9px;
+}
+
+.btns-container button span {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.logs {
+  margin-right: 35px;
+}
+
+.logs button {
+  background: #2188D9;
+  border-style: none;
+}
+
+.heading {
+  padding-top: 72px;
+  margin-left: 50px;
+}
+
+.heading h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #060C1B;
+}
+
+.filter-containert {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters-wrap {
+  display: flex;
+  gap: 15px;
+  margin-left: 50px;
+}
+
+.search-field i {
+  position: absolute;
+  margin: 15px 0 0 10px;
+  color: #B8B9BC;
+}
+
+.search-field input {
+  padding-left: 28px;
+  width: 334px;
+  height: 48px;
+  background: #FFFFFF;
+
+  border: 1px solid #B8B9BC;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.select-form select {
+  width: 209px;
+  height: 48px;
+  background: #FFFFFF;
+
+  border: 1px solid #B8B9BC;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 13px;
+}
+
+.select-status select {
+  width: 209px;
+  height: 48px;
+  background: #FFFFFF;
+
+  border: 1px solid #B8B9BC;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 13px;
+}
+
+.date-status input {
+  width: 209px;
+  height: 45px;
+  background: #FFFFFF;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  border: 1px solid #B8B9BC;
+  border-radius: 4px;
+  padding-left: 13px;
+}
+
+.btn-group {
+  width: 10%;
+  display: flex;
+}
+
+.btn-group button {
+  height: 48px;
+  width: 48%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  background: #ffff;
+  border: 1px solid #B8B9BC;
+  border-radius: 0 4px 4px 0;
+}
+
+.btn-group .active {
+  background: #2188D9;
+  color: #ffff;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #2188D9;
+}
+
+.export-files {
+  margin-right: 25px;
+  width: 7%;
+}
+
+.export-files button {
+  height: 48px;
+  width: 100%;
+  background: #FFFFFF;
+  border-style: none;
+
+}
+
+.export-files button img {
+  width: 17px;
+
+}
+
+.export-files button span {
+  padding: 0 0 0px 11px;
+  color: #2188D9;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+}
+
+.content-container {
+  display: flex;
+  margin-top: 25px;
+  gap: 39px;
+}
+
+.cards {
+  width: 40%;
+  padding-left: 10px;
+}
+
+.map1 {
+  width: 70%;
+  margin-top: 15px;
+}
+
+.map1 #map {
+  width: 100%;
+  height: 690px;
+}
+
+.card-content {
+  margin-left: 39px;
+  padding-left: 13px;
+  height: 163px;
+  background: #FFFFFF;
+  border: 1px solid #B8B9BC;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.card-content h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #060C1B;
+}
+
+.card-content p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #060C1B;
+}
+
+.card-content p span {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #B8B9BC;
+}
+
+.show-status {
+  position: absolute;
+    left: 380px;
+    top: 270px;
+    width: 150px;
+    height: 30px;
+    background-color: antiquewhite;
+}
+
+.active-btn {
+  background: #1773BB !important;
+  line-height: 71px !important;
+}
+
+.active-img {
+  float: right;
+    margin-top: -4px;
+    margin-right: -60px;
+}
+
+.inner-wrap {
+  width: 82%;
+}
+
+.inner-wrap h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #060C1B;
+}
+
+.inner-wrap p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #060C1B;
+}
+
+.inner-wrap p span {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #B8B9BC;
+}
+
+.date-clr {
+  color: #FF3D00 !important;
+}
